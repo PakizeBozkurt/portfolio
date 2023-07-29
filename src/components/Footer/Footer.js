@@ -1,6 +1,5 @@
 import React from "react";
-import GitHubIcon from "../assets/icons/github-icon.svg";
-import LinkedInIcon from "../assets/icons/linkedin-icon.svg";
+
 
 function Footer() {
   return (
@@ -24,7 +23,7 @@ function Footer() {
               className="text-body-secondary"
               href="https://github.com/PakizeBozkurt"
             >
-              <GitHubIcon width="24" height="24" />
+              {/* <GitHubIcon width="24" height="24" /> */}
             </a>
           </li>
           <li className="ms-3">
@@ -32,7 +31,7 @@ function Footer() {
               className="text-body-secondary"
               href="https://www.linkedin.com/in/pakize-bozkurt/"
             >
-              <LinkedInIcon width="24" height="24" />
+              {/* <LinkedInIcon width="24" height="24" /> */}
             </a>
           </li>
         </ul>
