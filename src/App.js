@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from './components/Footer/Footer';
 import "./App.css"; 
+import Pages from "./pages/Pages";
 
 
 function App() {
@@ -9,10 +10,9 @@ function App() {
     <div className="app-container">
       <NavBar />
       <div className="content">
-        {/*  Main content */}
+        <Pages />
       </div>
-        <Footer />
-    
+      <Footer />
     </div>
   );
 }
