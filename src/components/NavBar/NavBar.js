@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./NavBar.css";
 
@@ -55,11 +56,13 @@ function NavBar() {
         </nav>
       </div>
       <div className="container-fluid">
-        <div className=" px-4 py-5 my-5 text-center">
+        <div className=" px-3 py-3 my-3 text-center">
           <img
-            className="img-fluid"
-            src="portfolio/src/Images/PHOTO-2023-04-27-20-13-23.jpg"
+            className="img-fluid img-thumbnail rounded-5"
+            src="../assets/Images/PHOTO-2023-04-27-20-13-23.jpg"
             alt="Pakize's foto"
+            width="200"
+            height="150"
           />
           <h1 className="display-5 fw-bold text-body-emphasis">I'm Pakize</h1>
           <div class="text-center lh-lg">
