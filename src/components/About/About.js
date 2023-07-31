@@ -94,7 +94,7 @@ function About() {
                 className="btn btn-secondary"
                 target="_blank"
               >
-                GitHub
+                Deployed
               </a>
             </div>
           </div>
