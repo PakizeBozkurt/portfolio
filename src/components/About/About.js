@@ -33,7 +33,7 @@ function About() {
         <div className="col-sm-6 mb-3 mb-sm-5">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">HTML & CSS</h5>
+              <h5 className="card-title fs-1 fw-bold">HTML & CSS</h5>
               <p className="card-text">
                 Created an MVP Project with HTML & CSS
               </p>
@@ -50,7 +50,7 @@ function About() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">JavaScript</h5>
+              <h5 className="card-title fs-1 fw-bold">JavaScript</h5>
               <p className="card-text">
                 Created a fun app for Developers in the HackTheMidlands.
               </p>
@@ -67,7 +67,7 @@ function About() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">React</h5>
+              <h5 className="card-title fs-1 fw-bold">React</h5>
               <p className="card-text">
                 Created a Hotel Project for Code Your Future with React.
               </p>
@@ -84,7 +84,7 @@ function About() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Full Stack</h5>
+              <h5 className="card-title fs-1 fw-bold">Full Stack</h5>
               <p className="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
