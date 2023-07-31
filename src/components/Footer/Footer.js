@@ -1,6 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-
-
 
 function Footer() {
   return (
@@ -35,8 +34,10 @@ function Footer() {
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li classNmae="ms-3">
             <a
-              className="text-body-secondary"
+              className="text-body-tertiary"
               href="https://github.com/PakizeBozkurt"
+              alt="In"
+              target="_blank"
             >
               <button type="button" className="btn btn-secondary">
                 <svg
@@ -56,6 +57,8 @@ function Footer() {
             <a
               className="text-body-secondary"
               href="https://www.linkedin.com/in/pakize-bozkurt/"
+              alt="In"
+              target="_blank"
             >
               <button type="button" className="btn btn-secondary">
                 <svg
