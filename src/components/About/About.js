@@ -9,7 +9,7 @@ function About() {
       <section className="py-5 text-center container">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto text-center">
-            <h1 className="fw-light">My Skills</h1>
+            <h1 className="fw-bold">My Skills</h1>
             <p className="lead text-body-secondary">
               As a Full Stack Developer, I have completed a comprehensive course
               and acquired expertise in HTML, CSS, JavaScript, React, Node.js,
@@ -21,7 +21,7 @@ function About() {
             <p>
               <a
                 href="https://github.com/PakizeBozkurt"
-                className="btn btn-secondary my-2"
+                className="btn btn-secondary fw-bold my-2"
               >
                 Go My Learning Jurney
               </a>
@@ -39,7 +39,7 @@ function About() {
               </p>
               <a
                 href="https://volunteer-group.netlify.app/"
-                className="btn btn-secondary"
+                className="btn btn-secondary fw-bold"
                 target="_blank"
               >
                 Deployed
@@ -56,7 +56,7 @@ function About() {
               </p>
               <a
                 href="https://hck2022.netlify.app/"
-                className="btn btn-secondary"
+                className="btn btn-secondary fw-bold"
                 target="_blank"
               >
                 Deployed
@@ -73,7 +73,7 @@ function About() {
               </p>
               <a
                 href="https://reacthotelapp.netlify.app/"
-                className="btn btn-secondary"
+                className="btn btn-secondary fw-bold"
                 target="_blank"
               >
                 Deployed
@@ -91,7 +91,7 @@ function About() {
               </p>
               <a
                 href="https://github.com/PakizeBozkurt/hugsforbugs"
-                className="btn btn-secondary"
+                className="btn btn-secondary fw-bold"
                 target="_blank"
               >
                 Deployed
