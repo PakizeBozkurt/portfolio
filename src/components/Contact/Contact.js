@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <form>
+    <form className="d-flex cover-container w-50 h-50 p-5 mx-auto flex-column text-bg-dark rounded-5">
       <div className="form-group contact-form mb-3" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
@@ -83,8 +83,11 @@ const Contact = () => {
           placeholder="Your Thoughts...."
         />
       </div>
-
-      <button type="submit" className="btn btn-secondary">
+      
+      <button
+        type="submit"
+        className="btn btn-lg  btn-light fw-bold border-white bg-white"
+      >
         Send Message
       </button>
     </form>
