@@ -43,6 +43,7 @@ const Contact = () => {
             onChange={handleChange}
             required
             className="form-control"
+            placeholder="Your Name"
           />
         </div>
         <div className="form-group">
@@ -55,6 +56,7 @@ const Contact = () => {
             onChange={handleChange}
             required
             className="form-control"
+            placeholder="JoeDoe@mail.com"
           />
         </div>
         <div className="form-group">
@@ -67,6 +69,7 @@ const Contact = () => {
             onChange={handleChange}
             required
             className="form-control"
+            placeholder="Hire!"
           />
         </div>
         <div className="form-group">
@@ -79,11 +82,12 @@ const Contact = () => {
             required
             rows="4"
             className="form-control"
+            placeholder="Your Thoughts...."
           />
         </div>
       </div>
       <button type="submit" className="btn btn-secondary">
-        Submit
+        Send Message
       </button>
     </form>
   );
