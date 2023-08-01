@@ -45,8 +45,8 @@ function NavBar() {
                     About
                   </a>
                 </li>
-                <li className="nav-item ">
-                  <a className="nav-link" aria-disabled="true">
+                <li className="nav-item active">
+                  <a className="nav-link" href="/contact">
                     Contact
                   </a>
                 </li>
@@ -55,7 +55,6 @@ function NavBar() {
           </div>
         </nav>
       </div>
-      
     </>
   );
 }
