@@ -17,7 +17,7 @@ function About() {
               skills in SDLC enable me to build responsive user
               interfaces(user-friendly), efficient back-end solutions, and
               manage databases effectively, delivering high-quality products
-              that meet user needs.  <br />
+              that meet user needs. <br />
               <br /> <em> I love errors, it makes me powerful!</em>
             </p>
             <p>
@@ -43,6 +43,7 @@ function About() {
                 href="https://volunteer-group.netlify.app/"
                 className="btn btn-secondary fw-bold"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Deployed
               </a>
@@ -60,6 +61,7 @@ function About() {
                 href="https://hck2022.netlify.app/"
                 className="btn btn-secondary fw-bold"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Deployed
               </a>
@@ -77,6 +79,7 @@ function About() {
                 href="https://reacthotelapp.netlify.app/"
                 className="btn btn-secondary fw-bold"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Deployed
               </a>
@@ -95,6 +98,7 @@ function About() {
                 href="https://github.com/PakizeBozkurt/hugsforbugs"
                 className="btn btn-secondary fw-bold"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Deployed
               </a>
