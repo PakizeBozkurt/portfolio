@@ -31,10 +31,11 @@ function Footer() {
           </span>
         </div>
 
-        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li classNmae="ms-3">
+        <ul className="nav col-md-5 justify-content-end ">
+          <h4 className="text-body-secondary mb-3 mb-md-0 pe-5">Follow me!</h4>
+          <li classNmae="ms-5">
             <a
-              className="text-body-tertiary"
+              className="text-body-secondary p-0"
               href="https://github.com/PakizeBozkurt"
               alt="In"
               target="_blank"
@@ -53,9 +54,9 @@ function Footer() {
               </button>
             </a>
           </li>
-          <li className="ms-3">
+          <li className="ms-5">
             <a
-              className="text-body-secondary"
+              className="text-body-secondary p-0"
               href="https://www.linkedin.com/in/pakize-bozkurt/"
               alt="In"
               target="_blank"
