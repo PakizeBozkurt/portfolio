@@ -91,8 +91,7 @@ function About() {
             <div className="card-body">
               <h5 className="card-title fs-1 fw-bold">Full Stack</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+              Comleted a Full stack(React.js, Node.js and PostgreSQL) project with 4 team members in 4 weeks successfully!
               </p>
               <a
                 href="https://github.com/PakizeBozkurt/hugsforbugs"
