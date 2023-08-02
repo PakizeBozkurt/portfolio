@@ -71,7 +71,7 @@ const Contact = () => {
           onChange={handleChange}
           required
           className="form-control"
-          placeholder="Hire!"
+          placeholder="Hire me!"
         />
       </div>
       <div className="form-group">
