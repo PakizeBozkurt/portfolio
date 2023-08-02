@@ -9,14 +9,16 @@ function About() {
       <section className="py-5 text-center container">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto text-center">
-            <h1 className="fw-bold">My Skills</h1>
-            <p className="lead text-body-secondary">
-              As a Full Stack Developer, I have completed a comprehensive course
-              and acquired expertise in HTML, CSS, JavaScript, React, Node.js,
-              SQL, and Agile Methodology. My skills in SDLC enable me to build
-              responsive user interfaces, efficient back-end solutions, and
+            <h1 className="fw-bold m-0">My Skills</h1>
+            <p className="fs-4 text-body-secondary my-5">
+              As a Full Stack & Software Developer, I have completed a
+              comprehensive course in 11-months and acquired expertise in HTML,
+              CSS, JavaScript, React, Node.js, SQL, and Agile Methodology. My
+              skills in SDLC enable me to build responsive user
+              interfaces(user-friendly), efficient back-end solutions, and
               manage databases effectively, delivering high-quality products
-              that meet user needs.
+              that meet user needs.  <br />
+              <br /> <em> I love errors, it makes me powerful!</em>
             </p>
             <p>
               <a
