@@ -21,7 +21,6 @@ function NavBar() {
             </svg>
           </button>
 
-          
           <button
             className="navbar-toggler"
             type="button"
@@ -65,7 +64,7 @@ function NavBar() {
               <li className="nav-item active">
                 <a
                   className="nav-link fw-bold py-3 px-5 active"
-                  href=""
+                  href="https://docs.google.com/document/d/1YXg1dEJV6jtDsslf2H2AEWY6j-gpvFYRtqbu6s1a6AA/edit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
