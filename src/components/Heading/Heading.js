@@ -12,7 +12,7 @@ function Heading() {
             width="200"
             height="150"
           />
-          <h1 className="display-5 fw-bold text-body-emphasis">I'm Pakize</h1>
+          <h1 className="fw-bold text-body-emphasis">Hello, I'm Pakize</h1>
           <div class="text-center lh-lg">
             <div className="card-body">
               <h5 className="card-title fs-2 fw-semibold lh-sm">
