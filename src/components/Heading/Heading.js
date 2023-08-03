@@ -1,8 +1,9 @@
 import React from 'react';
+import "./Heading.css";
 
 function Heading() {
   return (
-    <div>
+    <div className="bg-image">
       <div className="container-fluid">
         <div className=" px-3 py-3 my-3 text-center">
           <img
