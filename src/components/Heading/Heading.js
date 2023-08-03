@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import "./Heading.css";
 
 function Heading() {
@@ -16,16 +16,6 @@ function Heading() {
           <h1 className="fw-bold text-body-emphasis text-center m-5">
             Hello, I'm Pakize
           </h1>
-        </div>
-        <div class="text-center lh-lg">
-          <div className="card-body">
-            <h5 className="card-title fs-2 fw-semibold lh-sm">
-              Full Stack Web Developer <br /> & <br /> Software Developer
-            </h5>
-            <p className="card-text fs-2 fw-medium lh-lg m-3">
-              Living for learning...
-            </p>
-          </div>
         </div>
       </div>
     </div>
