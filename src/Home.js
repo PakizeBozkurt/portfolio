@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "./components/Heading/Heading";
-import Contact from "./components/Contact/Contact";
 import Skills from "./components/Skills/Skills";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 
 
@@ -10,7 +10,7 @@ function Home() {
     <div>
     <Heading />
     <Skills />
-    <Contact />
+    <ContactMe />
     </div>
   );
 }
