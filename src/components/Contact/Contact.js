@@ -92,7 +92,9 @@ const Contact = () => {
         type="submit"
         className="btn btn-lg  btn-light fw-bold border-white bg-white"
       >
-        Send Message
+        <a className="email fw-bold" href="mailto:pakiozihak@gmail.com">
+          Send Message
+        </a>
       </button>
     </form>
   );
