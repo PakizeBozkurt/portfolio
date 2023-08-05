@@ -92,7 +92,12 @@ const Contact = () => {
         type="submit"
         className="btn btn-lg  btn-light fw-bold border-white bg-white"
       >
-        <a className="email fw-bold" href="mailto:pakiozihak@gmail.com">
+        <a
+          className="email fw-bold"
+          href="mailto:pakiozihak@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Send Message
         </a>
       </button>
