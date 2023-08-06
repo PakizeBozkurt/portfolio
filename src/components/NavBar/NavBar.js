@@ -3,7 +3,6 @@ import React from "react";
 import "./NavBar.css";
 
 function NavBar() {
-
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark  bg-body-tertiary py-4">
@@ -63,12 +62,11 @@ function NavBar() {
               </li>
               <li className="nav-item active">
                 <a
-                  className="nav-link fw-bold py-3 px-5 active"
-                  href="https://docs.google.com/document/d/1YXg1dEJV6jtDsslf2H2AEWY6j-gpvFYRtqbu6s1a6AA/edit"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="nav-link fw-bold py-3 px-5 active btn btn2"
+                  href="../assets/Images/Pakize Bozkurt CV V5.pdf"
+                  download
                 >
-                  My CV
+                  Downloand CV
                 </a>
               </li>
             </ul>
