@@ -8,7 +8,7 @@ function Heading() {
         <div className="d-flex align-items-center px-3 py-3 my-3">
           <img
             src="../assets/Images/PHOTO-2023-04-27-20-13-23.jpg"
-            className="img-fluid rounded-5 border-solid  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px] "
+            className="img-fluid p-5  mx-auto  rounded-circle border border-dark"
             alt="Pakize Bozkurt"
             width="300"
             height="200"
