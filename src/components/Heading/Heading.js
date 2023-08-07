@@ -7,13 +7,13 @@ function Heading() {
       <div className="container-fluid">
         <div className="d-flex align-items-center px-3 py-3 my-3">
           <img
-            className="img-fluid pe-5 rounded-5"
             src="../assets/Images/PHOTO-2023-04-27-20-13-23.jpg"
-            alt="Pakize's foto"
+            className="img-fluid rounded-5 border-solid  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px] "
+            alt="Pakize Bozkurt"
             width="300"
             height="200"
           />
-          <h1 className="fw-bold text-body-emphasis text-center m-5">
+          <h1 className="fw-bold text-body-emphasis text-center mx-5 px-5">
             Full Stack Web Developer <br /> & <br /> Software Developer
           </h1>
         </div>
