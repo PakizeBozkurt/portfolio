@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skills.css";
+// import "./Skills.css";
 
 function Skills() {
   return (
@@ -17,12 +17,12 @@ function Skills() {
                   I love creating websites with user-friendly. Living for
                   learning....
                 </p>
-                <div className="skills">
-                  <div className="skills-container">
+                <div className="skills ">
+                  <div className="skills-container ">
                     <div className="skills-section">
-                      <label className="skills-section-title">Skills</label>
-                      <div className="skills-list">
-                        <div className="skill-card">
+                      <label className="fs-1 my-5 py-5">Skills</label>
+                      <div className="skills-list d-flex justify-content-between">
+                        <div className="skill-card d-flex justify-content-between">
                           <div className="skill-icon">
                             <label className="skill-name">ReactJS</label>
                           </div>
