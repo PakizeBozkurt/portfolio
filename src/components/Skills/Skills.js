@@ -17,7 +17,7 @@ function Skills() {
                   I love creating websites with user-friendly. Living for
                   learning....
                 </p>
-                <div className="skills ">
+                <div className="skills">
                   <div className="skills-container ">
                     <div className="skills-section">
                       <label className="fs-1 my-5 py-5">Skills</label>
