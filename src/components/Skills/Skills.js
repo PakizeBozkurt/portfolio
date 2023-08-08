@@ -1,9 +1,11 @@
 import React from "react";
 import SkillCard from "./SkillCard";
+import { FaReact } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
 
 
-
-function Skills () {
+function Skills() {
   return (
     <div className="text-center my-5">
       <h2 className="display-5 fw-bolder">
@@ -17,19 +19,21 @@ function Skills () {
         <div className="skills-container">
           <div className="skills-section">
             <label className="fs-1 my-5 py-5">Skills</label>
-            <div className="d-flex justify-content-between">
-              <SkillCard name="ReactJS" icon="react" />
-              <SkillCard name="HTML5" icon="code" />
-              <SkillCard name="CSS3" icon="css3" />
-              <SkillCard name="JavaScript" icon="javascript" />
-              <SkillCard name="NodeJS" icon="nodejs" />
-              <SkillCard name="SQL" icon="database" />
-              <SkillCard name="MongoDB" icon="mongo" />
+            <div className="skills-list d-flex justify-content-between">
+              <SkillCard name="ReactJS" />
+              <FaReact />
+              <SkillCard name="HTML5" />
+              <FaHtml5 />
+              <SkillCard name="CSS3" />
+              <FaCss3Alt />
+              <SkillCard name="JavaScript" /> 
+              <SkillCard name="NodeJS" icon="./skill-icons/nodejs.svg" />
+              <SkillCard name="SQL" icon="./skill-icons/sql.svg" />
+              <SkillCard name="MongoDB" icon="./skill-icons/mongodb.svg" />
             </div>
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
