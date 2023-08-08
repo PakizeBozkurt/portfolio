@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import SocialMediaLinks from "./SocialMediaLinks";
 
 function ContactMe() {
   return (
@@ -8,16 +9,7 @@ function ContactMe() {
           <h1 className="display-5 fw-bolder">Contact</h1>
           <p>
             Hey, send me an email if you want to connect! Additionally, you can
-            find me on{" "}
-            <a
-              className="linked-in fw-bold"
-              href="https://www.linkedin.com/in/pakize-bozkurt/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn{" "}
-            </a>
-            , shoot a message if you have to!
+            find me on<SocialMediaLinks />, shoot a message if you have to!
           </p>
           <a className="email fw-bold" href="mailto:pakiozihak@gmail.com">
             pakiozihak@gmail.com
