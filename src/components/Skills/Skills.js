@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
+import { BiLogoJavascript } from "react-icons/bi";
 import { FaNode } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -23,14 +23,14 @@ function Skills() {
         <div className="skills-container">
           <div className="skills-section">
             <label className="fs-1 my-5 py-5">Skills</label>
-            <div className="skills-list d-flex justify-content-between">
+            <div className=" d-flex justify-content-between">
               <SkillCard name="ReactJS" />
               <FaReact />
               <SkillCard name="HTML5" />
               <FaHtml5 />
               <SkillCard name="CSS3" />
               <FaCss3Alt />
-              <SkillCard name="JavaScript" /> <FaNodeJs />
+              <SkillCard name="JavaScript" /> <BiLogoJavascript />
               <SkillCard name="NodeJS" />
               <FaNode />
               <SkillCard name="SQL" /> <BiLogoPostgresql />
