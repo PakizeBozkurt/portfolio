@@ -21,21 +21,23 @@ function Skills() {
       </p>
       <div className="skills">
         <div className="skills-container">
-          <div className="skills-section">
-            <label className="fs-1 my-5 py-5">Skills</label>
-            <div className=" d-flex justify-content-between">
+          <div className="skills-section px-5 fs-4 ">
+            <label className="fs-1 my-5 py-5 ">Skills</label>
+            <div className=" d-flex flex-wrap justify-content-between algin-items-center">
+              <FaReact className="fs-1  bg-warning" />
               <SkillCard name="ReactJS" />
-              <FaReact />
+              <FaHtml5 className="fs-1 ms-3 bg-warning" />
               <SkillCard name="HTML5" />
-              <FaHtml5 />
+              <FaCss3Alt className="fs-1 ms-3 bg-warning" />
               <SkillCard name="CSS3" />
-              <FaCss3Alt />
-              <SkillCard name="JavaScript" /> <BiLogoJavascript />
+              <BiLogoJavascript className="fs-1 ms-3 bg-warning" />
+              <SkillCard name="JavaScript" />
+              <FaNode className="fs-1 ms-3 bg-warning" />
               <SkillCard name="NodeJS" />
-              <FaNode />
-              <SkillCard name="SQL" /> <BiLogoPostgresql />
+              <BiLogoPostgresql className="fs-1 ms-3 bg-warning" />
+              <SkillCard name="SQL" />
+              <BiLogoMongodb className="fs-1 ms-3 bg-warning" />
               <SkillCard name="MongoDB" />
-              <BiLogoMongodb />
             </div>
           </div>
         </div>

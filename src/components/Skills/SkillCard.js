@@ -1,11 +1,9 @@
 import React from "react";
 
-function SkillCard({ name, icon }) {
+function SkillCard({ name }) {
   return (
-    <div className="skill-card">
-      <div className="skill-icon">
-        <label className="skill-name">{name}</label>
-      </div>
+    <div className=" d-flex flex-wrap justify-content-between algin-items-center bg-danger p-5 m-2">
+      <label className="skill-name">{name}</label>
     </div>
   );
 }
