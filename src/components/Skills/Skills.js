@@ -5,6 +5,9 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
+import { BiLogoPostgresql } from "react-icons/bi";
+
 
 function Skills() {
   return (
@@ -30,8 +33,9 @@ function Skills() {
               <SkillCard name="JavaScript" /> <FaNodeJs />
               <SkillCard name="NodeJS" />
               <FaNode />
-              <SkillCard name="SQL" icon="./skill-icons/sql.svg" />
-              <SkillCard name="MongoDB" icon="./skill-icons/mongodb.svg" />
+              <SkillCard name="SQL" /> <BiLogoPostgresql />
+              <SkillCard name="MongoDB" />
+              <BiLogoMongodb />
             </div>
           </div>
         </div>
