@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-
+import { FaNodeJs } from "react-icons/fa";
 
 function Skills() {
   return (
@@ -26,8 +26,8 @@ function Skills() {
               <FaHtml5 />
               <SkillCard name="CSS3" />
               <FaCss3Alt />
-              <SkillCard name="JavaScript" /> 
-              <SkillCard name="NodeJS" icon="./skill-icons/nodejs.svg" />
+              <SkillCard name="JavaScript" /> <FaNodeJs />
+              <SkillCard name="NodeJS" />
               <SkillCard name="SQL" icon="./skill-icons/sql.svg" />
               <SkillCard name="MongoDB" icon="./skill-icons/mongodb.svg" />
             </div>
