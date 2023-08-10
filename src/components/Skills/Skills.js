@@ -11,18 +11,18 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 function Skills() {
   return (
-    <div className="text-center my-5">
+    <div className="text-center my-5 ">
       <h2 className="display-5 fw-bolder">
         <span className="text-gradient d-inline">About Me</span>
       </h2>
-      <p className="lead fw-light mb-4">My name is Pakize,</p>
-      <p className="text-muted">
+      <p className="lead fw-light mb-4 fs-2">My name is Pakize,</p>
+      <p className="text-secondary fs-3">
         I love creating websites with user-friendly. Living for learning....
       </p>
       <div className="skills">
         <div className="skills-container">
           <div className="skills-section px-5 fs-4 ">
-            <label className="fs-1 my-5 py-5 bgCircle ">Skills</label>
+            <label className="fs-1 my-5 py-5 bgCircle  ">Skills</label>
             <div className=" d-flex flex-wrap justify-content-between algin-items-center ">
               <FaReact className="fs-1  " />
               <SkillCard name="ReactJS" />
