@@ -11,11 +11,11 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 function Skills() {
   return (
-    <div className="text-center my-5 ">
-      <h2 className="display-5 fw-bolder">
-        <span className="text-gradient d-inline">About Me</span>
+    <div className="text-center my-5 p-5">
+      <h2 className="display-5 fw-bolder p-5 my-5">
+        <span className="text-gradient d-inline ">About Me</span>
       </h2>
-      <p className="lead fw-light mb-4 fs-2">My name is Pakize,</p>
+      <p className="lead fw-light mb-4 fs-2 p-5 ">My name is Pakize,</p>
       <p className="text-secondary fs-3">
         I love creating websites with user-friendly. Living for learning....
       </p>
