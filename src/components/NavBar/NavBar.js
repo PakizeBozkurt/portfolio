@@ -48,7 +48,7 @@ function NavBar() {
                   aria-current="page"
                   href="/about"
                 >
-                  About
+                  Projects
                 </a>
               </li>
               <li className="nav-item active">
