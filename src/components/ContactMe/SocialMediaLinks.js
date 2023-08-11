@@ -19,6 +19,14 @@ function SocialMediaLinks() {
       >
         <i className="bi bi-github"></i>
       </a>
+      <a
+        className="text-gradient email"
+        href="mailto:pakiozihak@gmail.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="bi bi-envelope-at-fill"></i>{" "}
+      </a>
     </div>
   );
 }
