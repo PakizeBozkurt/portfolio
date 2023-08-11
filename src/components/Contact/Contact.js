@@ -30,8 +30,8 @@ const Contact = () => {
   };
 
   return (
-    <form className="d-flex cover-container w-50 h-25 p-5 mx-auto flex-column text-bg-dark rounded-5">
-      <div className="form-group contact-form mb-3" onSubmit={handleSubmit}>
+    <form className="d-flex cover-container w-50 h-25 p-5 mx-auto flex-column text-bg-dark rounded-5 ">
+      <div className="form-group contact-form mb-3 " onSubmit={handleSubmit}>
         <h2 className="text-center fw-bold fs-1">
           Let's work <br /> together!
         </h2>
@@ -44,7 +44,7 @@ const Contact = () => {
           value={formData.name}
           onChange={handleChange}
           required
-          className="form-control"
+          className="form-control "
           placeholder="Your Name"
         />
       </div>
@@ -90,10 +90,10 @@ const Contact = () => {
 
       <button
         type="submit"
-        className="btn btn-lg  btn-light fw-bold border-white bg-white"
+        className="btn btn-lg  btn-light fw-bold border-white bg-white border border-0"
       >
         <a
-          className="email fw-bold"
+          className="email fw-bold "
           href="mailto:pakiozihak@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
