@@ -4,6 +4,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  
 }
 
 .app-container {
@@ -15,4 +16,6 @@ html, body {
 .content {
   flex: 1; /* This pushes the footer to the bottom */
   padding: 20px; /* Optional padding for your main content */
+  background-color: #FFF5E4;
+  color: #850E35 ;
 }
