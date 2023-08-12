@@ -11,11 +11,12 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* This ensures the app container fills the entire viewport height */
+  background-color: #FFF5E4;
 }
 
 .content {
   flex: 1; /* This pushes the footer to the bottom */
   padding: 20px; /* Optional padding for your main content */
-  background-color: #FFF5E4;
+
   color: #1B1B2F;
 }
