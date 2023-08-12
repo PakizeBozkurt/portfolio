@@ -46,7 +46,7 @@ function NavBar() {
                 <a
                   className="nav-link fw-bold py-3 px-5 active"
                   aria-current="page"
-                  href="/about"
+                  href="/projects"
                 >
                   Projects
                 </a>

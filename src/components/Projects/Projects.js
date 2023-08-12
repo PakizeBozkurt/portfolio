@@ -3,7 +3,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-function About() {
+function Projects() {
   return (
     <div>
       <section className="py-5 my-5 m-5 text-center container ">
@@ -112,4 +112,4 @@ function About() {
   );
 }
 
-export default About;
+export default Projects;
