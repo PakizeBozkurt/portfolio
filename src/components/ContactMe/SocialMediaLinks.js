@@ -9,7 +9,7 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="bi bi-linkedin "></i>
+        <i className="bi bi-linkedin icon"></i>
       </a>
       <a
         className="text-gradient"
@@ -17,7 +17,7 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="bi bi-github"></i>
+        <i className="bi bi-github icon"></i>
       </a>
       <a
         className="text-gradient email"
@@ -25,7 +25,7 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="bi bi-envelope-at-fill"></i>{" "}
+        <i class="bi bi-envelope-at-fill icon"></i>{" "}
       </a>
     </div>
   );

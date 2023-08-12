@@ -7,6 +7,7 @@ import { BiLogoJavascript } from "react-icons/bi";
 import { FaNode } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
 import { BiLogoPostgresql } from "react-icons/bi";
+import "./Skill.css";
 
 
 function Skills() {
