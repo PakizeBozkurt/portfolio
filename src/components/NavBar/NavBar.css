@@ -7,7 +7,7 @@
 
 [data-theme='light'] .navbar {
   
-  background-color: #ffffff;
+  background-color: #0A2647;
 }
 
 [data-theme='light'] .theme-icon {
@@ -29,4 +29,8 @@
 [data-theme='dark'] .theme-icon {
   
   fill: #00ffcc;
+}
+
+.btn btn2{
+  background-color: #FF8DC7;
 }
