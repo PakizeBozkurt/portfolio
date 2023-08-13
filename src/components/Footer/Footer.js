@@ -4,9 +4,9 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="container mx-auto">
-      <footer className="d-flex flex-wrap justify-content-between align-items-center p-5 mx-auto bg-dark">
-        <div className="col-md-4 d-flex align-items-center">
+    <div className="container mx-5">
+      <footer className="d-flex flex-wrap justify-content-between align-items-center p-5 mx-auto rounded-5 bg-dark ">
+        <div className="col-md-4 d-flex align-items-center ps-5">
           <a
             href="/"
             className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"

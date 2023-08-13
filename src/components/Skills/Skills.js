@@ -16,7 +16,7 @@ function Skills() {
       <h2 className="display-5 fw-bolder p-5 my-5">
         <span className="text-gradient d-inline ">About Me</span>
       </h2>
-      <p className="lead fw-light mb-4 fs-2 p-5 ">My name is Pakize,</p>
+      <p className="lead fw-bold mb-4 fs-1 p-5 ">My name is Pakize,</p>
       <p className=" fs-3">
         I love creating websites with user-friendly. Living for learning....
       </p>

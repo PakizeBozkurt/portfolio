@@ -15,7 +15,9 @@ function App() {
       <div className="content">
         <Pages />
       </div>
-      <Footer />
+      <div className="footer w-100 h-100">
+        <Footer />
+      </div>
     </div>
   );
 }
