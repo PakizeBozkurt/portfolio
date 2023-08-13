@@ -7,7 +7,7 @@ function NavBar() {
     
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark  bg-body-tertiary py-4">
         <div className="container-fluid">
-          <button type="button" className="btn btn-secondary">
+          <button type="button" className="btn btn-secondary bg-dark">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
