@@ -11,7 +11,7 @@ function Footer() {
             href="/"
             className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
           >
-            <button type="button" className="btn btn-secondary">
+            <button type="button" className="btn btn-secondary bg-dark">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -43,7 +43,7 @@ function Footer() {
               alt="In"
               target="_blank"
             >
-              <button type="button" className="btn btn-secondary">
+              <button type="button" className="btn btn-secondary bg-dark">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -64,7 +64,7 @@ function Footer() {
               alt="In"
               target="_blank"
             >
-              <button type="button" className="btn btn-secondary">
+              <button type="button" className="btn btn-secondary bg-dark">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
