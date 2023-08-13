@@ -2,6 +2,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import "./Projects.css";
+
 
 function Projects() {
   return (
@@ -23,7 +25,7 @@ function Projects() {
             <p>
               <a
                 href="https://github.com/PakizeBozkurt"
-                className="btn btn-secondary fw-bold my-2 border border-0"
+                className="btn btn-secondary fw-bold my-2 border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -35,7 +37,7 @@ function Projects() {
       </section>
       <div className="row m-5 px-5 ">
         <div className="col-sm-6 mb-3 mb-5  ">
-          <div className="card  ">
+          <div className="card  custom">
             <div className="card-body ">
               <h5 className="card-title fs-1 fw-bold">HTML & CSS</h5>
               <p className="card-text">
@@ -43,7 +45,7 @@ function Projects() {
               </p>
               <a
                 href="https://volunteer-group.netlify.app/"
-                className="btn btn-secondary fw-bold border border-0"
+                className="btn btn-secondary fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -53,7 +55,7 @@ function Projects() {
           </div>
         </div>
         <div className="col-sm-6">
-          <div className="card">
+          <div className="card custom">
             <div className="card-body">
               <h5 className="card-title fs-1 fw-bold">JavaScript</h5>
               <p className="card-text">
@@ -61,7 +63,7 @@ function Projects() {
               </p>
               <a
                 href="https://hck2022.netlify.app/"
-                className="btn btn-secondary fw-bold border border-0"
+                className="btn btn-secondary fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,7 +73,7 @@ function Projects() {
           </div>
         </div>
         <div className="col-sm-6 ">
-          <div className="card">
+          <div className="card custom">
             <div className="card-body">
               <h5 className="card-title fs-1 fw-bold ">React</h5>
               <p className="card-text">
@@ -79,7 +81,7 @@ function Projects() {
               </p>
               <a
                 href="https://reacthotelapp.netlify.app/"
-                className="btn btn-secondary fw-bold border border-0"
+                className="btn btn-secondary fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -89,7 +91,7 @@ function Projects() {
           </div>
         </div>
         <div className="col-sm-6">
-          <div className="card">
+          <div className="card custom">
             <div className="card-body">
               <h5 className="card-title fs-1 fw-bold">Full Stack</h5>
               <p className="card-text">
@@ -98,7 +100,7 @@ function Projects() {
               </p>
               <a
                 href="https://github.com/PakizeBozkurt/hugsforbugs"
-                className="btn btn-secondary fw-bold border border-0"
+                className="btn btn-secondary fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
