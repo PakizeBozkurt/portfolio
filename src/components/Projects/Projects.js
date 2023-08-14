@@ -4,14 +4,13 @@
 import React from "react";
 import "./Projects.css";
 
-
 function Projects() {
   return (
     <div>
       <section className="py-5 my-5 m-5 text-center container ">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto text-center">
-            <h1 className="fw-bold m-0">My Skills</h1>
+            <h1 className="fw-bold m-0">My Passionate</h1>
             <p className="fs-4 text-body-secondary my-5">
               As a Full Stack & Software Developer, I have completed a
               comprehensive course in 11-months and acquired expertise in HTML,
@@ -25,7 +24,7 @@ function Projects() {
             <p>
               <a
                 href="https://github.com/PakizeBozkurt"
-                className="btn btn-secondary fw-bold my-2 border border-0 icon"
+                className="btn btn-secondary bg-dark rounded-5 fw-bold my-2 border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -35,17 +34,19 @@ function Projects() {
           </div>
         </div>
       </section>
-      <div className="row m-5 px-5 ">
-        <div className="col-sm-6 mb-3 mb-5  ">
-          <div className="card  custom">
-            <div className="card-body ">
-              <h5 className="card-title fs-1 fw-bold">HTML & CSS</h5>
+      <div className="row mb-5">
+        <div className="col-sm-3">
+          <div className="card bg-dark text-light border border-0 rounded-5 my-3 ps-3">
+            <div className="card-body text-center px-3">
+              <h5 className="card-title fs-1 fw-bold text-center mb-5">
+                HTML & CSS
+              </h5>
               <p className="card-text">
                 Created an MVP Project with HTML & CSS
               </p>
               <a
                 href="https://volunteer-group.netlify.app/"
-                className="btn btn-secondary fw-bold border border-0 icon"
+                className="fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,16 +55,18 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
-          <div className="card custom">
-            <div className="card-body">
-              <h5 className="card-title fs-1 fw-bold">JavaScript</h5>
+        <div className="col-sm-3">
+          <div className="card bg-dark text-light border border-0 rounded-5 my-3 ps-3">
+            <div className="card-body text-center px-3">
+              <h5 className="card-title fs-1 fw-bold text-center mb-5">
+                JavaScript
+              </h5>
               <p className="card-text">
                 Created a fun app for Developers in the HackTheMidlands.
               </p>
               <a
                 href="https://hck2022.netlify.app/"
-                className="btn btn-secondary fw-bold border border-0 icon"
+                className="fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,16 +75,18 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-sm-6 ">
-          <div className="card custom">
-            <div className="card-body">
-              <h5 className="card-title fs-1 fw-bold ">React</h5>
+        <div className="col-sm-3">
+          <div className="card bg-dark text-light border border-0 rounded-5 my-3 ps-3">
+            <div className="card-body text-center px-3">
+              <h5 className="card-title fs-1 fw-bold text-center mb-5">
+                React
+              </h5>
               <p className="card-text">
                 Created a Hotel Project for Code Your Future with React.
               </p>
               <a
                 href="https://reacthotelapp.netlify.app/"
-                className="btn btn-secondary fw-bold border border-0 icon"
+                className="fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -90,17 +95,19 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
-          <div className="card custom">
-            <div className="card-body">
-              <h5 className="card-title fs-1 fw-bold">Full Stack</h5>
+        <div className="col-sm-3">
+          <div className="card bg-dark text-light border border-0 rounded-5 my-3 ps-3">
+            <div className="card-body text-center px-3">
+              <h5 className="card-title fs-1 fw-bold text-center mb-5">
+                Full Stack
+              </h5>
               <p className="card-text">
                 Comleted a Full stack(React.js, Node.js and PostgreSQL) project
                 successfully!
               </p>
               <a
                 href="https://github.com/PakizeBozkurt/hugsforbugs"
-                className="btn btn-secondary fw-bold border border-0 icon"
+                className="fw-bold border border-0 icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >

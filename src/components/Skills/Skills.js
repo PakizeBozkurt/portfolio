@@ -24,7 +24,7 @@ function Skills() {
           <div className="skills-section px-5 fs-4 ">
             <label className="fs-1 my-5 py-5 bgCircle  ">Skills</label>
             <div className=" d-flex flex-wrap justify-content-between algin-items-center ">
-              <FaReact className="fs-1 ms-3 icon " />
+              <FaReact className="fs-1 ms-3 icon" />
               <SkillCard name="ReactJS" />
               <FaHtml5 className="fs-1 ms-3 icon" />
               <SkillCard name="HTML5" />
