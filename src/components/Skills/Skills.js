@@ -9,7 +9,6 @@ import { BiLogoMongodb } from "react-icons/bi";
 import { BiLogoPostgresql } from "react-icons/bi";
 import "./Skill.css";
 
-
 function Skills() {
   return (
     <div className="text-center my-5 p-5">
@@ -25,19 +24,19 @@ function Skills() {
           <div className="skills-section px-5 fs-4 ">
             <label className="fs-1 my-5 py-5 bgCircle  ">Skills</label>
             <div className=" d-flex flex-wrap justify-content-between algin-items-center ">
-              <FaReact className="fs-1  " />
+              <FaReact className="fs-1 ms-3 icon " />
               <SkillCard name="ReactJS" />
-              <FaHtml5 className="fs-1 ms-3 " />
+              <FaHtml5 className="fs-1 ms-3 icon" />
               <SkillCard name="HTML5" />
-              <FaCss3Alt className="fs-1 ms-3" />
+              <FaCss3Alt className="fs-1 ms-3 icon" />
               <SkillCard name="CSS3" />
-              <BiLogoJavascript className="fs-1 ms-3 " />
+              <BiLogoJavascript className="fs-1 ms-3 icon" />
               <SkillCard name="JavaScript" />
-              <FaNode className="fs-1 ms-3 " />
+              <FaNode className="fs-1 ms-3 icon" />
               <SkillCard name="NodeJS" />
-              <BiLogoPostgresql className="fs-1 " />
+              <BiLogoPostgresql className="fs-1 icon" />
               <SkillCard name="SQL" />
-              <BiLogoMongodb className="fs-1 ms-3 " />
+              <BiLogoMongodb className="fs-1 ms-3 icon" />
               <SkillCard name="MongoDB" />
             </div>
           </div>
