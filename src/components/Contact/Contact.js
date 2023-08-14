@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -30,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <form className="d-flex cover-container w-50 h-25 p-5 mx-auto flex-column text-bg-dark rounded-5 ">
+    <form className="d-flex cover-container w-50 h-25 p-5 mx-auto flex-column rounded-5 form-custom">
       <div className="form-group contact-form mb-3 " onSubmit={handleSubmit}>
         <h2 className="text-center fw-bold fs-1">
           Let's work <br /> together!
