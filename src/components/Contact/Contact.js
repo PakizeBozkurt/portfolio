@@ -94,7 +94,7 @@ const Contact = () => {
         className="btn btn-lg  btn-light fw-bold border-white bg-white border border-0"
       >
         <a
-          className="email fw-bold "
+          className="email fw-bold text-dark"
           href="mailto:pakiozihak@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
