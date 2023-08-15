@@ -31,9 +31,12 @@ const Contact = () => {
   };
 
   return (
-    <form className="d-flex cover-container w-50 h-25 p-5 mx-auto flex-column rounded-5 form-custom">
-      <div className="form-group contact-form mb-3 " onSubmit={handleSubmit}>
-        <h2 className="text-center fw-bold fs-1">
+    <form className="d-flex cover-container w-50 h-25 p-5 mx-auto flex-column rounded-5 bg-dark ">
+      <div
+        className="form-group text fs-1 rounded-5 contact-form mb-3 "
+        onSubmit={handleSubmit}
+      >
+        <h2 className="text-center  fw-bold fs-1">
           Let's work <br /> together!
         </h2>
 
@@ -49,7 +52,7 @@ const Contact = () => {
           placeholder="Your Name"
         />
       </div>
-      <div className="form-group">
+      <div className="form-group text fs-1">
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -62,7 +65,7 @@ const Contact = () => {
           placeholder="JoeDoe@mail.com"
         />
       </div>
-      <div className="form-group">
+      <div className="form-group text fs-1">
         <label htmlFor="subject">Subject:</label>
         <input
           type="text"
@@ -75,7 +78,7 @@ const Contact = () => {
           placeholder="Hire me!"
         />
       </div>
-      <div className="form-group">
+      <div className="form-group text fs-1">
         <label htmlFor="message">Message:</label>
         <textarea
           id="message"
@@ -84,14 +87,14 @@ const Contact = () => {
           onChange={handleChange}
           required
           rows="4"
-          className="form-control"
+          className="form-control "
           placeholder="Your Thoughts...."
         />
       </div>
 
       <button
         type="submit"
-        className="btn btn-lg  btn-light fw-bold border-white bg-white border border-0"
+        className="btn btn-lg  btn-light fw-bold border-white text border border-0 "
       >
         <a
           className="email fw-bold text-dark"
