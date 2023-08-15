@@ -25,7 +25,7 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="bi bi-envelope-at-fill icon"></i>{" "}
+        <i className="bi bi-envelope-at-fill icon"></i>{" "}
       </a>
     </div>
   );
