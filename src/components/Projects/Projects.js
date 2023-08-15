@@ -7,10 +7,10 @@ import "./Projects.css";
 function Projects() {
   return (
     <div>
-      <section className="py-5 my-5 m-5 text-center container ">
-        <div className="row py-lg-5">
+      <section className=" d-flex justify-content-center aligin-items-center py-5 my-5 text-center container ">
+        <div className="row py-lg-5 ps-5">
           <div className="col-lg-6 col-md-8 mx-auto text-center">
-            <h1 className="fw-bold m-0">My Passionate</h1>
+            <h1 className="fw-bold">My Passionate</h1>
             <p className="fs-4 text-body-secondary my-5">
               As a Full Stack & Software Developer, I have completed a
               comprehensive course in 11-months and acquired expertise in HTML,
@@ -34,9 +34,9 @@ function Projects() {
           </div>
         </div>
       </section>
-      <div className="row mb-5">
+      <div className="row mb-5 py-5 my-5">
         <div className="col-sm-3">
-          <div className="card bg-dark text-light border border-0 rounded-5 my-3 ps-3">
+          <div className="card bg-dark text-light border border-0 rounded-5 my-3 p-3 ps-3">
             <div className="card-body text-center px-3">
               <h5 className="card-title fs-1 fw-bold text-center mb-5">
                 HTML & CSS
