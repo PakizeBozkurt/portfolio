@@ -1,5 +1,8 @@
 # This is my portfolio.
+Who am I?
+What am I doing?
 
+Just have a look my great portfolio!
 
 You can reach me at: pakiozihak@gmail.com
 
