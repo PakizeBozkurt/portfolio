@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://pakizebozkurt.github.io/portfolio/",
-  "public_url": "https://pakizebozkurt.github.io/portfolio/",
+  "homepage": "https://pakizebozkurt.github.io/",
+  "public_url": "https://pakizebozkurt.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
