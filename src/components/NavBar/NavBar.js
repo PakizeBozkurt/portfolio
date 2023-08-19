@@ -62,7 +62,7 @@ function NavBar() {
             <li className="nav-item active">
               <a
                 className="nav-link fw-bold py-3 px-5 active btn btn2"
-                href="../assets/Images/Pakize Bozkurt CV V5.pdf"
+                href="../assets/Images/PakizeBozkurtCVv2023.pdf"
                 download
               >
                 Downloand CV
