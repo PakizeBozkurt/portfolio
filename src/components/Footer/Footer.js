@@ -45,8 +45,9 @@ function Footer() {
             <a
               className="text-body-secondary p-0"
               href="https://github.com/PakizeBozkurt"
-              alt="In"
+              alt="GitHub"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button
                 aria-label="icon"
