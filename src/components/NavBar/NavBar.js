@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark  bg-body-tertiary py-4">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark  bg-body-tertiary py-2">
       <div className="container-fluid">
         <button type="button" className=" btn border border-0 bg-dark">
           <svg
