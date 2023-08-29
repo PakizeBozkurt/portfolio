@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className="container mx-auto">
       <footer className="d-flex flex-wrap justify-content-between align-items-center p-5 mx-auto rounded-5 bg-dark ">
-        <div className="col-md-4 d-flex align-items-center ps-5">
+        <div className="col-md-4 d-flex align-items-center ps-3">
           <a
-            href="/"
+            href="/portfolio/"
             className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
           >
             <button
@@ -32,16 +32,16 @@ function Footer() {
               </svg>
             </button>
           </a>
-          <span className="mb-3 mb-md-0 text-body-secondary text-light">
+          <span className="mb-5 mb-md-0 text-body-secondary text-light">
             &copy; 2023 Pakize Bozkurt, By Heart...
           </span>
         </div>
 
-        <ul className="nav col-md-5 justify-content-end ">
-          <h4 className="text-body-secondary mb-3 mb-md-0 pe-5 text-light">
+        <ul className="nav col-sm-5 justify-content-end ">
+          <h4 className="text-body-secondary mb-5 mb-md-0 pe-3 text-light">
             Follow me!
           </h4>
-          <li className="ms-5">
+          <li className="ms-3">
             <a
               className="text-body-secondary p-0"
               href="https://github.com/PakizeBozkurt"
@@ -67,7 +67,7 @@ function Footer() {
               </button>
             </a>
           </li>
-          <li className="ms-5">
+          <li className="ms-3">
             <a
               className="text-body-secondary p-0 "
               href="https://www.linkedin.com/in/pakize-bozkurt/"

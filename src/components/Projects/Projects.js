@@ -29,30 +29,29 @@ function Projects() {
   return (
     <div>
       <section className=" d-flex justify-content-center aligin-items-center py-5 my-5 text-center container ">
-        {/* ... */}
+        <div className="row mb-5 py-3 my-5">
+          <ProjectCard
+            title="HTML & CSS"
+            description="Created an MVP Project with HTML & CSS"
+            link="https://volunteer-group.netlify.app/"
+          />
+          <ProjectCard
+            title="JavaScript"
+            description="Created a fun app for Developers in the HackTheMidlands."
+            link="https://hck2022.netlify.app/"
+          />
+          <ProjectCard
+            title="React"
+            description="Created a Hotel Project for Code Your Future with React."
+            link="https://reacthotelapp.netlify.app/"
+          />
+          <ProjectCard
+            title="Full Stack"
+            description="Completed a Full stack(React.js, Node.js, SQL) project!"
+            link="https://github.com/PakizeBozkurt/hugsforbugs"
+          />
+        </div>
       </section>
-      <div className="row mb-5 py-5 my-5">
-        <ProjectCard
-          title="HTML & CSS"
-          description="Created an MVP Project with HTML & CSS"
-          link="https://volunteer-group.netlify.app/"
-        />
-        <ProjectCard
-          title="JavaScript"
-          description="Created a fun app for Developers in the HackTheMidlands."
-          link="https://hck2022.netlify.app/"
-        />
-        <ProjectCard
-          title="React"
-          description="Created a Hotel Project for Code Your Future with React."
-          link="https://reacthotelapp.netlify.app/"
-        />
-        <ProjectCard
-          title="Full Stack"
-          description="Completed a Full stack(React.js, Node.js and PostgreSQL) project successfully!"
-          link="https://github.com/PakizeBozkurt/hugsforbugs"
-        />
-      </div>
     </div>
   );
 }
