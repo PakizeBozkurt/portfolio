@@ -18,6 +18,7 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 Deployed my portfolio on Render!
+The link: https://react-portfolio-maai.onrender.com/
 
 ## Thanks!
 Like the page? Leave a ⭐!
