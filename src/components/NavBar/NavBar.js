@@ -65,7 +65,7 @@ function NavBar() {
                 href="../assets/Images/PakizeBozkurtCVv2023.pdf"
                 download
               >
-                Downloand CV
+                Download CV
               </a>
             </li>
           </ul>
