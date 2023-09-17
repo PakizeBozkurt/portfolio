@@ -24,9 +24,10 @@ function Skills() {
       <h2 className="display-5 fw-bolder p-5 my-5">
         <span className="text-gradient d-inline">About Me</span>
       </h2>
-      
+
       <p className="fs-3">
-        I love creating websites with user-friendly. Living for learning....
+        Dedicated, self-discipline and resilience ... <br /> I am a life-long learner!<br />I love creating websites
+        with user-friendly. Living for learning....
       </p>
       <div className="skills">
         <div className="skills-container">
